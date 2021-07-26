@@ -1,4 +1,3 @@
--- begin CUBACI_BOOK
 create table CUBACI_BOOK (
     ID uuid,
     VERSION integer not null,
@@ -13,5 +12,4 @@ create table CUBACI_BOOK (
     DESCRIPTION varchar(255),
     --
     primary key (ID)
-)^
--- end CUBACI_BOOK
+);

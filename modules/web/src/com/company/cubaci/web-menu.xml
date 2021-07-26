@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
     <menu id="application-cubaci" insertBefore="administration" caption="mainMsg://menu_config.application-cubaci">
+        <item screen="cubaci_Book.browse" caption="mainMsg://menu_config.cubaci_Book.browse"/>
     </menu>
 </menu-config>
