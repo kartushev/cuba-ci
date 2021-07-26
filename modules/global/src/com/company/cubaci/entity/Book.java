@@ -20,6 +20,9 @@ public class Book extends StandardEntity {
     @Column(name = "DESCRIPTION")
     private String description;
 
+    @Column(name = "RATING")
+    private Integer rating;
+
     public String getName() {
         return name;
     }
@@ -34,5 +37,13 @@ public class Book extends StandardEntity {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Integer getRating() {
+        return rating;
+    }
+
+    public void setRating(Integer rating) {
+        this.rating = rating;
     }
 }

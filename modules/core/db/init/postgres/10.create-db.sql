@@ -11,6 +11,7 @@ create table CUBACI_BOOK (
     --
     NAME varchar(255),
     DESCRIPTION varchar(255),
+    RATING integer,
     --
     primary key (ID)
 )^
