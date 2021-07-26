@@ -35,6 +35,7 @@
             <columns>
                 <column id="name"/>
                 <column id="description"/>
+                <column id="rating"/>
             </columns>
             <rowsCount/>
             <buttonsPanel id="buttonsPanel"
